@@ -10,9 +10,18 @@
 body{
     background-color: white;
 }
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  letter-spacing: 8px;
+  color: #865439;
+  text-transform: uppercase;
+}
   
 #timer {
-  color: #FCF0CF;
+  color: #FDF6F0;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -28,64 +37,45 @@ body{
 }
 
 .days {
-  background: #F6A7C1;
+  background: #C68B59;
 }
 
 .hours {
-  background: #FCF0CF;
-  color: #F6A7C1;
+  background: #C68B59;
 }
 
 .minutes {
-  background: #F6A7C1;
+  background: #C68B59;
 }
 
 .seconds {
-  background: #F6A7C1;
+  background: #C68B59;
 }
 
 .numbers {
   font-family: 'Montserrat', sans-serif;
-  color:  #FCF0CF;
+  color:  #FDF6F0;
   font-size: 4em;
   text-align: center;
 }
 
 .white {
   position: absolute;
-  background:  #F6A7C1;
+  background:  #FDF6F0;
   height: 85px;
   width: 75px;
   left: 30%;
   top: 2%;
 }
 
-.red {
-  position: absolute;
-  background:  #F6A7C1;
-  left: 18%;
-  top: 9%;
-  height: 65px;
-  width: 70px;
- 
-}
-
-.blue {
-  position: absolute;
-  background:  #F6A7C1;
-  height: 80px;
-  width: 80px;
-  left: 60%;
-  top: 5%;
 
 
-}
 
 
     </style>
 </head>
 <body>
-    
+
 <div id="timer">
 
     <div class="days"> 
@@ -100,10 +90,12 @@ body{
 
 </div>
 
+<h1>until CFA Exam<h1>    
+    
 </body>
 <script>
     const year = new Date().getFullYear();
-const myDate = new Date('Sep 11, 2021 00:00:00');
+const myDate = new Date('Feb 21, 2022 08:00:00');
 console.log(myDate);
 
 // countdown
